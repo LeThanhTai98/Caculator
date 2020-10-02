@@ -1,0 +1,100 @@
+﻿@model ToDoListModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .caculator {
+        width: 500px;
+        height: 600px;
+        background-color: dimgray;
+        margin: auto;
+        padding-top: 50px;
+        border-radius: 20px;
+    }
+
+        .caculator .display {
+            width: 400px;
+            height: 100px;
+            background-color: black;
+            margin: auto;
+        }
+
+    .display .index {
+        text-align: left;
+        color: white;
+        height: 50%;
+    }
+
+    .display .result {
+        padding-top: 7%;
+        color: white;
+        height: 50%;
+        text-align: end;
+    }
+
+
+    .buttonGroup {
+        margin-left: 50px;
+        width: 300px;
+        height: 500px;
+        /*background-color: green;*/
+        padding-right: 15px;
+        float: left;
+    }
+
+        .button {
+            width: 70px;
+            height: 80px;
+            margin-top: 20px;
+            margin-left: 20px;
+            background-color: white;
+             
+            float: left;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    .button .buttonText {
+        flex: 0 0 10px;
+    }
+    .button:active{
+        background-color:red;
+    }
+    .caculatorGroup {
+        width: 100px;
+        height: 400px;
+       /* background-color: blueviolet;*/
+        margin-left: 350px;
+    }
+    
+</style>
+
+<script>
+    function addToIndex(content) {
+
+    }
+</script>
+<div class="caculator">
+    <div class="display">
+        <div class="index">4+2</div>
+        <div class="result">7</div>
+    </div>
+    <div class="buttonGroup">
+        @for (int i = 0; i < 9; i++)
+        {
+            <div class="button"> @{ int temp = i + 1; <text> <div class="buttonText">@temp </div> </text>} </div>
+        }
+        <div class="button">  <div class="buttonText">. </div> </div>
+        <div class="button">  <div class="buttonText">0 </div> </div>
+        <div class="button">  <div class="buttonText">= </div> </div>
+    </div>
+    <div class="caculatorGroup">
+        <div class="button">  <div class="buttonText">+ </div> </div>
+        <div class="button">  <div class="buttonText">- </div> </div>
+        <div class="button">  <div class="buttonText">X </div> </div>
+        <div class="button">  <div class="buttonText">/ </div> </div>
+    </div>
+</div>
