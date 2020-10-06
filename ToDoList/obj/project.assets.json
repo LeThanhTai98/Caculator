@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {}
+    ".NETCoreApp,Version=v3.0": {
+      "Caculator/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Caculator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Caculator.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Caculator/1.0.0": {
+      "type": "project",
+      "path": "../Caculator/Caculator.csproj",
+      "msbuildProject": "../Caculator/Caculator.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": []
+    ".NETCoreApp,Version=v3.0": [
+      "Caculator >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Thanh Tai\\.nuget\\packages\\": {},
@@ -36,7 +55,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Thanh Tai\\Desktop\\webPublic\\Caculator\\Caculator.csproj": {
+              "projectPath": "C:\\Users\\Thanh Tai\\Desktop\\webPublic\\Caculator\\Caculator.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

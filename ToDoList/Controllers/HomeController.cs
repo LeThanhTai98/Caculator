@@ -20,14 +20,8 @@ namespace ToDoList.Controllers
 
         public IActionResult Index()
         {
-            var list = new ToDoListModel {
-                new ToDoListItem(){ id = 1 , content = "task 1" },
-                new ToDoListItem(){ id = 1 , content = "task 2"},
-                new ToDoListItem(){ id = 1 , content = "task 3"},
-                new ToDoListItem(){ id = 1 , content = "task 4"},
-                new ToDoListItem(){ id = 1 , content = "task 5"}
-            };
-            return View(list);
+            
+            return View();
         }
 
         public IActionResult Privacy()

@@ -12,7 +12,6 @@ C:\Users\Thanh Tai\Desktop\webPublic\ToDoList\bin\Debug\netcoreapp3.0\ToDoList.V
 C:\Users\Thanh Tai\Desktop\webPublic\ToDoList\obj\Debug\netcoreapp3.0\ToDoList.csprojAssemblyReference.cache
 C:\Users\Thanh Tai\Desktop\webPublic\ToDoList\obj\Debug\netcoreapp3.0\staticwebassets\ToDoList.StaticWebAssets.Manifest.cache
 C:\Users\Thanh Tai\Desktop\webPublic\ToDoList\obj\Debug\netcoreapp3.0\staticwebassets\ToDoList.StaticWebAssets.xml
-C:\Users\Thanh Tai\Desktop\webPublic\ToDoList\obj\Debug\netcoreapp3.0\ToDoList.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Thanh Tai\Desktop\webPublic\ToDoList\obj\Debug\netcoreapp3.0\ToDoList.RazorAssemblyInfo.cache
 C:\Users\Thanh Tai\Desktop\webPublic\ToDoList\obj\Debug\netcoreapp3.0\ToDoList.RazorAssemblyInfo.cs
 C:\Users\Thanh Tai\Desktop\webPublic\ToDoList\obj\Debug\netcoreapp3.0\ToDoList.AssemblyInfoInputs.cache
@@ -33,5 +32,8 @@ C:\Users\Thanh Tai\Desktop\webPublic\ToDoList\obj\Debug\netcoreapp3.0\ToDoList.V
 C:\Users\Thanh Tai\Desktop\webPublic\ToDoList\obj\Debug\netcoreapp3.0\ToDoList.dll
 C:\Users\Thanh Tai\Desktop\webPublic\ToDoList\obj\Debug\netcoreapp3.0\ToDoList.pdb
 C:\Users\Thanh Tai\Desktop\webPublic\ToDoList\obj\Debug\netcoreapp3.0\ToDoList.csproj.CopyComplete
-C:\Users\Thanh Tai\Desktop\webPublic\ToDoList\obj\Debug\netcoreapp3.0\ToDoList.csproj.CoreCompileInputs.cache
 C:\Users\Thanh Tai\Desktop\webPublic\ToDoList\obj\Debug\netcoreapp3.0\ToDoList.genruntimeconfig.cache
+C:\Users\Thanh Tai\Desktop\webPublic\ToDoList\obj\Debug\netcoreapp3.0\ToDoList.csproj.CoreCompileInputs.cache
+C:\Users\Thanh Tai\Desktop\webPublic\ToDoList\obj\Debug\netcoreapp3.0\ToDoList.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Thanh Tai\Desktop\webPublic\ToDoList\bin\Debug\netcoreapp3.0\Caculator.dll
+C:\Users\Thanh Tai\Desktop\webPublic\ToDoList\bin\Debug\netcoreapp3.0\Caculator.pdb
